@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<application>
+
+	<definition>
+		<idname>amazon-s3-class</idname>
+		<release>
+			<version>0.3.9-1</version>
+			<date>2009-05-09</date>
+			<changesfile>CHANGES</changesfile>
+		</release>
+		<description>Amazon S3 PHP class</description>
+		<category>libraries</category>
+		<iconfile></iconfile>
+		<dependencies>
+			<!-- <dependency></dependency> -->
+			<!-- <suggestion></suggestion> -->
+		</dependencies>
+		<options>
+			<!-- <option></option> -->
+		</options>
+		<legal>
+			<author>
+				<name>Donovan Schönknecht</name>
+				<email></email>
+				<web>http://undesigned.org.za/2007/10/22/amazon-s3-php-class</web>
+			</author>
+			<copyright>Copyright (c) 2008, Donovan Schönknecht.  All rights reserved.</copyright>
+			<license>New BSD License</license>
+			<licensefile>LICENSE</licensefile>
+		</legal>
+		<support>
+			<supportemail></supportemail>
+			<bugsemail></bugsemail>
+			<maintainer>
+				<name>Alex Pagnoni</name>
+				<email>alex.pagnoni@innoteam.it</email>
+			</maintainer>
+		</support>
+	</definition>
+
+	<components>
+	
+	   <class name="amazon-s3/S3.php" />
+
+	</components>
+</application>
